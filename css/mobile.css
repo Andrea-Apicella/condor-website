@@ -1,0 +1,19 @@
+/* CSS Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* navbar */
+nav {
+  background: #444;
+  height: 55px;
+  padding: 11.5px 14px;
+  height: 55px;
+}
+
+#logo {
+  width: 40px;
+  height: 40px;
+}
