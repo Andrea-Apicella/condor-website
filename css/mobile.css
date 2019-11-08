@@ -7,13 +7,16 @@
 
 /* navbar */
 nav {
-  background: #444;
+  display: flex;
+  justify-content: space-between;
+  background: #f8f8f8;
+  color: #2b2b2b;
   height: 55px;
-  padding: 11.5px 14px;
-  height: 55px;
+  padding: 11.5px 16px 11.5px 14px;
+  height: 56px;
 }
 
 #logo {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
 }
