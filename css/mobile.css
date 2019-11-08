@@ -5,6 +5,32 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* utility classes */
+.wrapper-light {
+  background: #f5f5f5;
+  padding-bottom: 2rem;
+}
+
+.wrapper-midtone {
+  background: #eee;
+  padding: 2rem 1rem;
+}
+
+.wrapper-dark {
+  background: #212121;
+  color: #f1f1f1;
+  padding: 2rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.box {
+}
+
 /* navbar */
 nav {
   display: flex;
@@ -19,4 +45,16 @@ nav {
 #logo {
   width: 32px;
   height: 32px;
+}
+
+/* showcase image styling */
+
+#showcase-image {
+  background: url("../img/showcase-img-1.jpg") no-repeat center center/cover;
+  height: 757px;
+}
+
+/* packs styling */
+.wrapper-midtone .wrapper-dark #logo-signature {
+  width: 100%;
 }
