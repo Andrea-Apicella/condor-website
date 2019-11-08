@@ -5,6 +5,9 @@
   box-sizing: border-box;
 }
 
+h3 {
+  margin-bottom: 0.75rem;
+}
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -29,6 +32,33 @@ body {
 }
 
 .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px #f5f5f5 solid;
+  padding: 1.5rem 0px;
+}
+
+.box p {
+  letter-spacing: 2px;
+}
+/* 
+.dot {
+  float: left;
+  height: 6px;
+  width: 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 5px;
+} */
+
+.centerize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* navbar */
@@ -57,4 +87,29 @@ nav {
 /* packs styling */
 .wrapper-midtone .wrapper-dark #logo-signature {
   width: 100%;
+}
+
+#logo-signature {
+  margin-bottom: 2.5rem;
+}
+
+#box-1 {
+  padding-top: 0px;
+}
+
+#box-1 p {
+  font-size: 0.75rem;
+}
+#box-5 {
+  border: none;
+  padding-bottom: 0px;
+}
+
+#box-5 p {
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+#box-5 h3 {
+  margin-bottom: 0px;
 }
