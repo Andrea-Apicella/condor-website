@@ -91,7 +91,7 @@ body {
 } */
 
 /* navbar */
-nav {
+/*nav {
   display: flex;
   justify-content: space-between;
   background: #f8f8f8;
@@ -100,6 +100,8 @@ nav {
   padding: 11.5px 16px 11.5px 14px;
   height: 56px;
 }
+
+*/
 
 #logo {
   width: 32px;
