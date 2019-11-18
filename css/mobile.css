@@ -115,7 +115,7 @@ body {
 
 #showcase-image {
   background: url("../img/showcase-img-1.jpg") no-repeat center center/cover;
-  height: 757px;
+  height: 100vh;
 }
 
 /* packs styling */
