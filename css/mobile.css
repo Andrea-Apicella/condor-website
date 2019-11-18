@@ -100,8 +100,11 @@ body {
   padding: 11.5px 16px 11.5px 14px;
   height: 56px;
 }
-
 */
+
+#custom-toggler {
+  border: none;
+}
 
 #logo {
   width: 32px;
