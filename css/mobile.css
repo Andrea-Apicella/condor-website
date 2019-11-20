@@ -105,6 +105,10 @@ body {
 }
 */
 
+#navbar-main {
+  background: #f4f4f4;
+}
+
 #custom-toggler {
   border: none;
 }
