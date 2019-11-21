@@ -185,3 +185,8 @@ body {
 #button-fb {
   background: #3c5a99;
 }
+
+#box-5 h3 {
+  font-size: 1.3rem;
+  line-height: 2.2rem;
+}
