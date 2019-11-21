@@ -185,11 +185,3 @@ body {
 #button-fb {
   background: #3c5a99;
 }
-
-/* Media queries */
-
-@media screen and (min-width: 768px) {
-  #logo-signature {
-    display: none;
-  }
-}
