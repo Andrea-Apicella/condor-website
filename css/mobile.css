@@ -118,11 +118,28 @@ body {
   height: 32px;
 }
 
-/* showcase image styling */
+/* showcase section styling */
 
-#showcase-image {
-  background: url("../img/showcase-img-0.jpg") no-repeat center center/cover;
+.bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   height: 100vh;
+}
+
+.bg0 {
+  background-image: url("../img/showcase-img-0.jpg");
+}
+
+.bg1 {
+  background-image: url("../img/showcase-img-1.jpg");
+}
+.bg2 {
+  background-position: right center;
+  background-image: url("../img/showcase-img-2.jpg");
+}
+.bg3 {
+  background-image: url("../img/showcase-img-3.jpg");
 }
 
 /* packs styling */
