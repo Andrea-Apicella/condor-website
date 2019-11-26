@@ -181,3 +181,14 @@ body {
 #button-fb {
   background: #3c5a99;
 }
+
+/* Gallery page styling */
+
+.gallery {
+  height: 100vh;
+}
+
+.image-box {
+  display: flex;
+  flex: 1;
+}
