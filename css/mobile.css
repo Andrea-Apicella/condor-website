@@ -75,6 +75,40 @@ body {
   color: #fff;
 }
 
+/* 
+.dot {
+  float: left;
+  height: 6px;
+  width: 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 5px;
+} */
+
+/* .centerize {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* navbar */
+/*nav {
+  display: flex;
+  justify-content: space-between;
+  background: #f8f8f8;
+  color: #2b2b2b;
+  height: 55px;
+  padding: 11.5px 16px 11.5px 14px;
+  height: 56px;
+}
+*/
+
+#navbar-main {
+  background: #fff;
+}
+
 #custom-toggler {
   border: none;
 }
@@ -84,11 +118,28 @@ body {
   height: 32px;
 }
 
-/* showcase image styling */
+/* showcase section styling */
 
-#showcase-image {
-  background: url("../img/showcase-img-1.jpg") no-repeat center center/cover;
+.bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   height: 100vh;
+}
+
+.bg0 {
+  background-image: url("../img/showcase-img-0.jpg");
+}
+
+.bg1 {
+  background-image: url("../img/showcase-img-1.jpg");
+}
+.bg2 {
+  background-position: right center;
+  background-image: url("../img/showcase-img-2.jpg");
+}
+.bg3 {
+  background-image: url("../img/showcase-img-3.jpg");
 }
 
 /* packs styling */
@@ -165,4 +216,8 @@ body {
 
 .gallery-image {
   width: 25%;
+}
+#box-5 h3 {
+  font-size: 1.3rem;
+  line-height: 2.2rem;
 }
