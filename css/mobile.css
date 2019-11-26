@@ -75,36 +75,6 @@ body {
   color: #fff;
 }
 
-/* 
-.dot {
-  float: left;
-  height: 6px;
-  width: 6px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 8px;
-  margin-right: 5px;
-} */
-
-/* .centerize {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-/* navbar */
-/*nav {
-  display: flex;
-  justify-content: space-between;
-  background: #f8f8f8;
-  color: #2b2b2b;
-  height: 55px;
-  padding: 11.5px 16px 11.5px 14px;
-  height: 56px;
-}
-*/
-
 #custom-toggler {
   border: none;
 }
@@ -191,4 +161,8 @@ body {
 .image-box {
   display: flex;
   flex: 1;
+}
+
+.gallery-image {
+  width: 25%;
 }
