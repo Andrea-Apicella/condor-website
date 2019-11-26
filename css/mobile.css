@@ -215,9 +215,15 @@ body {
 }
 
 .gallery-image {
-  width: 25%;
+  width: 100%;
 }
 #box-5 h3 {
   font-size: 1.3rem;
   line-height: 2.2rem;
+}
+
+.modal-dialog,
+.modal,
+.fade {
+  display: none;
 }
