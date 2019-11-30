@@ -175,7 +175,7 @@ body {
 
 /* Gallery page styling */
 .gallery {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .image-box {
