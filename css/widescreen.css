@@ -5,3 +5,14 @@
 #box-5 h3 {
   font-size: 1.75rem;
 }
+
+
+.image-box {
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.gallery-image {
+  width: 30%;
+}

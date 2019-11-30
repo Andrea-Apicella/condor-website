@@ -75,36 +75,6 @@ body {
   color: #fff;
 }
 
-/* 
-.dot {
-  float: left;
-  height: 6px;
-  width: 6px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  margin-top: 8px;
-  margin-right: 5px;
-} */
-
-/* .centerize {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-/* navbar */
-/*nav {
-  display: flex;
-  justify-content: space-between;
-  background: #f8f8f8;
-  color: #2b2b2b;
-  height: 55px;
-  padding: 11.5px 16px 11.5px 14px;
-  height: 56px;
-}
-*/
-
 #navbar-main {
   background: #fff;
 }
@@ -204,18 +174,22 @@ body {
 }
 
 /* Gallery page styling */
-
 .gallery {
   height: 100vh;
 }
 
 .image-box {
   display: flex;
-  flex: 1;
+  flex-direction: column;
 }
 
 .gallery-image {
   width: 100%;
+  margin: 1rem 0;
+  box-shadow: 1px 1px 5px #000;
+}
+.gallery-image:nth-child(1) {
+  margin-top: 0;
 }
 #box-5 h3 {
   font-size: 1.3rem;
