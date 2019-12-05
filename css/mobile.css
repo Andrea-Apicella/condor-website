@@ -1,6 +1,3 @@
-/* Google Font */
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-
 /* CSS Reset */
 * {
   margin: 0px;
@@ -8,15 +5,19 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Bahnschrift Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Bahnschrift Regular"),
+    url("..//fonts/BAHNSCHRIFT\ 1.woff") format("woff");
+}
+
 h3 {
   margin-bottom: 0.75rem;
 }
 h2 {
   margin-bottom: 1rem;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
 }
 
 /* utility classes */
