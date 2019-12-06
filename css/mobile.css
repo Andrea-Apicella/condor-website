@@ -118,11 +118,9 @@ h2 {
 }
 
 /* packs styling */
-.wrapper-midtone .wrapper-dark #logo-signature {
-  width: 100%;
-}
 
 #logo-signature {
+  width: 100%;
   margin-bottom: 2.5rem;
 }
 

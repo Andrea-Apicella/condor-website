@@ -1,11 +1,10 @@
 #logo-signature {
-  display: none;
+  width: 50%;
 }
 
 #box-5 h3 {
   font-size: 1.75rem;
 }
-
 
 .image-box {
   flex-wrap: wrap;
