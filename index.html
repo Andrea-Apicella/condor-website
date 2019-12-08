@@ -11,8 +11,7 @@
     content="dj roma, dj castelli romani, dj per diciottesimi, dj per feste, dj condor, djcondor, gabriele condorelli, condor dj, dj 18 anni, djcondor.it" />
 
   <!-- links -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="css/mobile.css" />
   <link rel="stylesheet" media="screen and (min-width:768px)" href="css/widescreen.css">
 
@@ -24,7 +23,7 @@
 
   <!-- navbar -->
   <nav id="navbar-main" class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <a href="index.html" class="navbar-brand">
+    <a href="#showcase-section" class="navbar-brand">
       <img src="img/main-logo.png" alt="logo" id="logo" />
     </a>
     <button id="custom-toggler" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-list"
@@ -33,9 +32,9 @@
     </button>
     <div class="collapse navbar-collapse" id="nav-list">
       <div class="navbar-nav">
-        <a href="gallery.html" class="nav-item nav-link">Gallery</a>
-        <a href="#packs" class="nav-item nav-link">Packs</a>
-        <a href="#contact" class="nav-item nav-link">Contact</a>
+        <a data-scroll href="gallery.html" class="nav-item nav-link">Gallery</a>
+        <a data-scroll href="#packs" class="nav-item nav-link">Packs</a>
+        <a data-scroll href="#contact" class="nav-item nav-link">Contact</a>
       </div>
     </div>
   </nav>
@@ -124,12 +123,16 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 
   <!-- Collapse Navbar when a link is clicked -->
   <script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+
     $('.navbar-collapse a').click(function () {
       $(".navbar-collapse").collapse('hide');
     });
+
   </script>
 
 </html>
