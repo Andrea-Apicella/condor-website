@@ -6,7 +6,7 @@ $(".navbar-collapse a").click(function() {
 });
 
 //add active class on click
-$(document).on("click", ".nav-link", function() {
+$(document).on("click", "nav a", function() {
   $(this)
     .addClass("active")
     .siblings()
