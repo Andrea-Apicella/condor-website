@@ -178,12 +178,9 @@ h2 {
 
 /* Gallery page styling */
 .gallery {
-  min-height: 100vh;
-}
-
-.image-box {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .gallery-image {
