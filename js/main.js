@@ -23,3 +23,8 @@ $(document).ready(function() {
       .removeClass("active");
   });
 });
+let pic = "";
+for (let i = 0; i < 30; i++) {
+  pic += `<img class="gallery-image" src="img/showcase/showcase-img${i}.jpg" data-toggle="modal" data-target="#galleryModal" />`;
+}
+document.getElementById("images-container").innerHTML = pic;

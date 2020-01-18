@@ -32,7 +32,7 @@
     </button>
     <div class="collapse navbar-collapse" id="nav-list">
       <div class="navbar-nav">
-        <a data-scroll href="#gallery" class="nav-item nav-link active">Gallery</a>
+        <a data-scroll href="#gallery-section" class="nav-item nav-link active">Gallery</a>
         <a href="index.html#packs" class="nav-item nav-link">Packs</a>
         <a data-scroll href="#contact" class="nav-item nav-link">Contact</a>
       </div>
@@ -40,12 +40,10 @@
   </nav>
 
   <!-- Gallery Section -->
-  <div id="gallery" class="wrapper-midtone">
-    <section class="gallery wrapper-dark">
+  <div id="gallery-section" class="wrapper-midtone">
+    <section class="wrapper-dark">
       <!-- this image triggers the modal -->
-      <img class="gallery-image" src="img/showcase-img-0.jpg" data-toggle="modal" data-target="#galleryModal" />
-      <img class="gallery-image" src="img/showcase-img-1.jpg" data-toggle="modal" data-target="#galleryModal" />
-      <img class="gallery-image" src="img/showcase-img-2.jpg" data-toggle="modal" data-target="#galleryModal" />
+      <div id="images-container" class="gallery"></div>
       <!-- Modal -->
       <div class="modal-visibility">
         <div id="galleryModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="galleryModalTitle"

@@ -9,8 +9,7 @@
   font-family: "Bahnschrift Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Bahnschrift Regular"),
-    url("..//fonts/BAHNSCHRIFT\ 1.woff") format("woff");
+  src: local("Bahnschrift Regular"), url("..//fonts/BAHNSCHRIFT\ 1.woff") format("woff");
 }
 
 body {
@@ -179,29 +178,34 @@ h2 {
 /* Gallery page styling */
 .gallery {
   display: flex;
-  flex-direction: column;
+  flex-wrap: nowrap;
   min-height: 100vh;
 }
 
 .gallery-image {
+  object-fit: cover;
   width: 100%;
   margin: 1rem 0;
   box-shadow: 1px 1px 5px #000;
+  max-height: 250px;
 }
-.gallery-image:nth-child(1) {
-  margin-top: 0;
+#images-container img:nth-child(5){
+  object-position: top;
+
 }
+#images-container img:nth-child(10),
+#images-container img:nth-child(11) {
+  object-position: bottom;
+}
+
 #box-5 h3 {
   font-size: 1.3rem;
   line-height: 2.2rem;
 }
 
-
-
-
-.modal-visibility{
-  display:none;
+.modal-visibility {
+  display: none;
 }
-.modal-backdrop{
-  display:none;
+.modal-backdrop {
+  display: none;
 }
