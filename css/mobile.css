@@ -178,7 +178,8 @@ h2 {
 /* Gallery page styling */
 .gallery {
   display: flex;
-  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: space-around;
   min-height: 100vh;
 }
 
@@ -189,9 +190,8 @@ h2 {
   box-shadow: 1px 1px 5px #000;
   max-height: 250px;
 }
-#images-container img:nth-child(5){
+#images-container img:nth-child(5) {
   object-position: top;
-
 }
 #images-container img:nth-child(10),
 #images-container img:nth-child(11) {
