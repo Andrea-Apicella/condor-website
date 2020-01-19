@@ -184,11 +184,9 @@ h2 {
 }
 
 .gallery-image {
-  object-fit: cover;
   width: 100%;
   margin: 1rem 0;
   box-shadow: 1px 1px 5px #000;
-  max-height: 250px;
 }
 #images-container img:nth-child(5) {
   object-position: top;
